@@ -6,9 +6,9 @@ Today, HTML is used on every website in the world; it's the base structure under
 
 Most web pages use:
 
-Html : Create the website skeleton.
-CSS: Modify the website presentation.
-JavaScript: Make it interactive.
+Html : Create the website skeleton.<br>
+CSS: Modify the website presentation.<br>
+JavaScript: Make it interactive.<br>
 
 
 As the name suggests, HTML is a markup language; it marks up every piece of content on a web page and defines its type. The language is simple and perfect for beginners!
