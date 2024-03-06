@@ -14,4 +14,4 @@ JavaScript: Make it interactive.<br>
 As the name suggests, HTML is a markup language; it marks up every piece of content on a web page and defines its type. The language is simple and perfect for beginners!
 
 
-All the programs we write will be HTML files with the file extension .html.
+All the programs written will be HTML files with the file extension .html.
