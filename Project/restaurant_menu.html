@@ -69,11 +69,24 @@
                 float: left;
                 width: 30%;
             }
+            .notice {
+                text-align: center;
+                color:red;
+                padding:30px;
+                font-size: 50px;
+            }
+            #order-form {
+                border-style: ridge ridge none ridge;
+                border-radius: 15px;
+                border-width: 3px;
+                border-color: #f1a321;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
+        <!-- Header -->
         <header>
-            <!--<img src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/afe98436-e202-4f65-8340-969044b20e1e/2753738.jpg?format=2500w" id="header-img" alt="Tatooine"> -->
             <img src="https://i.etsystatic.com/21569499/r/il/cd83cb/4647188149/il_1588xN.4647188149_l7nu.jpg" id="header-img" alt="Mos Eisley Cantina">
             <h1>Mos Eisley Cantina</h1>
             <nav>
@@ -83,7 +96,9 @@
                 </ul>
             </nav>
         </header>
+
         <main>
+            <!-- Menu Section -->
             <section id="menu">
                 <h2>Menu</h2>
                 <article>
@@ -167,40 +182,52 @@
                     </div>
                 </article>
             </section>
+            <p class="notice">Live Music Available! We dont serve Droids!</p>
+
+            <!-- Order Section -->
             <section id="order-form">
                 <h2>Place Your Order</h2>
                 <form>
-                    <label>Tusken Raiders Taters:
+                    <label>Tusken Raiders Taters :
                         <input type="number" min="0">
-                    </label>
-                    <label>Tusken Raiders Taters:
+                    </label><br><br>
+                    <label>Hutt Burger :
                         <input type="number" min="0">
-                    </label>
-                    <label>Tusken Raiders Taters:
+                    </label><br><br>
+                    <label>Ackbar's Garden Sandwich :
                         <input type="number" min="0">
-                    </label>
-                    <label>Tusken Raiders Taters:
+                    </label><br><br>
+                    <label>Choose your cocktail :<br>
+                        <input type="radio" name="cocktail"> Qui Gon Gin<br>
+                        <input type="radio" name="cocktail"> Han Shot First<br>    
+                    </label><br><br>
+                    
+                    <label>Wookie Cookies :
                         <input type="number" min="0">
-                    </label>
-                    <label>Tusken Raiders Taters:
-                        <input type="number" min="0">
-                    </label>
+                    </label><br><br>
 
-                    <label> Extra Cheese : (<i>+1 credit</i>)
-                        <input type="checkbox">
-                    </label>
-                    <label> Extra Cheese : (<i>+1 credit</i>)
-                        <input type="checkbox">
-                    </label>
+                    <label> Extra Dips : <br>
+                        <input type="checkbox"> Mudhorn Egg Delicacy<br>
+                        <input type="checkbox"> Naboo Swamp Sauce<br>
+                        <input type="checkbox"> Sarlacc Pit Spit
+                    </label><br><br>
 
-                    <label>Special Requests:
-                        <textarea placeholder="Anything other than Twi'leks!"></textarea>
-                    </label>
+                    <label> Extra toppings : <br>
+                        <input type="checkbox"> Blue Milk Cheese (<i>+1 credit</i>)<br>
+                        <input type="checkbox"> Green Milk Cheese (<i>+2 credit</i>)
+                    </label><br><br>
+
+                    <label>Special Requests :<br><br>
+                        <textarea rows="5" cols="27" placeholder="Anything other than Twi'leks!"></textarea>
+                    </label><br><br>
 
                     <input type="submit" value="Go To Checkout">
+                    <br>
                 </form>
             </section>
         </main>
+
+        <!-- Footer -->
         <footer>
             <p>Made with love by @Kashemanon97</p>
         </footer>
