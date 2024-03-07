@@ -16,7 +16,7 @@
                 text-align: center;
             }
             #header-img {
-                width:25%;
+                max-width:25%;
             }
             header h1 {
                 font-family: 'Star Wars', sans-serif;
@@ -28,7 +28,46 @@
             }
             nav a {
                 text-decoration: none;
-                color: green;
+                color: orangered;
+            }
+            main {
+                padding: 20px;
+            }
+            main h2{
+                padding:10px 0px;
+            }
+            article {
+                padding: 10px 0px;
+                margin: 5px 0px;
+                border: 3px solid;
+                border-radius: 17px;
+            }
+            article img {
+                max-width: 75%;
+            }
+            article h4{
+                padding: 10px;
+                text-decoration: underline;
+            }
+            article h3{
+                display: inline;
+                padding:10px;
+            }
+            article p{
+                padding:10px;
+            }
+            .group:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .text {
+                float: left;
+                width: 70%;
+            }
+            .images {
+                float: left;
+                width: 30%;
             }
         </style>
     </head>
@@ -48,39 +87,84 @@
             <section id="menu">
                 <h2>Menu</h2>
                 <article>
-                    <img src="https://lumiere-a.akamaihd.net/v1/images/tusken-raiders-main-bobf-2_135f8e1e.jpeg?region=0%2C0%2C1280%2C720" alt="tusken raider">
-                    <h3>Tusken Raiders Taters</h3>
-                    <p>Potatoes with desert-inspired flavors like spices and herbs found on Tatooine.<br>
-                    Potatoes are obviously stolen from travelers unfortunate enough to wander in Tusken territory.</p>
-                    <i>4.00 credits</i>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Starters </h4>
+                            <h3>Tusken Raiders Taters </h3>
+                            <i>&emsp;..... 5.00 credits</i>
+                            <p>Potatoes with desert-inspired flavors like spices and herbs found on Tatooine.<br>
+                            Potatoes are obviously stolen from travelers unfortunate enough to wander in Tusken territory.</p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/tusken-raiders-main-bobf-2_135f8e1e.jpeg?region=0%2C0%2C1280%2C720" alt="tusken raider">
+                        </div>
+                    </div>
                 </article>
                 <article>
-                    <img src="https://lumiere-a.akamaihd.net/v1/images/tusken-raiders-main-bobf-2_135f8e1e.jpeg?region=0%2C0%2C1280%2C720" alt="tusken raider">
-                    <h3>Tusken Raiders Taters</h3>
-                    <p>Potatoes with desert-inspired flavors like spices and herbs found on Tatooine.<br>
-                    Potatoes are obviously stolen from travelers unfortunate enough to wander in Tusken territory.</p>
-                    <i>4.00 credits</i>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Entrees </h4>
+                            <h3>Hutt Burger </h3>
+                            <i>&emsp;..... 11.00 credits</i>
+                            <p>Grade A rancor meat with all the fixins.<br>
+                           It is criminal to eat this sluggishly.<br> Beware though there are no second helpings!</p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/star-wars-episode-7/8/83/Jabba-the-hut.jpg?width=960" alt="jabba the hutt">
+                        </div>
+                    </div>
                 </article>
                 <article>
-                    <img src="https://lumiere-a.akamaihd.net/v1/images/tusken-raiders-main-bobf-2_135f8e1e.jpeg?region=0%2C0%2C1280%2C720" alt="tusken raider">
-                    <h3>Tusken Raiders Taters</h3>
-                    <p>Potatoes with desert-inspired flavors like spices and herbs found on Tatooine.<br>
-                    Potatoes are obviously stolen from travelers unfortunate enough to wander in Tusken territory.</p>
-                    <i>4.00 credits</i>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Healthy Options </h4>
+                            <h3>Ackbar's Garden Sandwich </h3>
+                            <i>&emsp;..... 7.00 credits</i>
+                            <p>An alliance between veggies and sauces that command your attention.<br>
+                            Clearly a trap for which your hands will have no resistance.</p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/zcwniJANZIclKmRVd22dQhnSX8yQkb.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5" alt="admiral ackbar">
+                        </div>
+                    </div>
                 </article>
                 <article>
-                    <img src="https://lumiere-a.akamaihd.net/v1/images/tusken-raiders-main-bobf-2_135f8e1e.jpeg?region=0%2C0%2C1280%2C720" alt="tusken raider">
-                    <h3>Tusken Raiders Taters</h3>
-                    <p>Potatoes with desert-inspired flavors like spices and herbs found on Tatooine.<br>
-                    Potatoes are obviously stolen from travelers unfortunate enough to wander in Tusken territory.</p>
-                    <i>4.00 credits</i>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Cocktails </h4>
+                            <h3>Qui Gon Gin </h3>
+                            <i>&emsp;..... 3.00 credits</i>
+                            <p>Forces you to be sensitive.<br>
+                            Served in two glasses. Half and Half.</p>
+                            <h4>OR </h4>
+                            <h3>Han Shot First </h3>
+                            <i>&emsp;..... 3.00 credits</i>
+                            <p>A taste so nice you will rebel for a millenium<br>
+                            All ingredients are naturally smuggled.</p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/qui-gon-jinn-main_3386f119.jpeg?region=296%2C3%2C937%2C527" alt="qui gon jinn">
+                            <img src="https://images.bauerhosting.com/legacy/empire-images/articles/5b646791ce577d2913b06199/han-solo.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80" alt="han solo">
+                        </div>
+                    </div>
                 </article>
                 <article>
-                    <img src="https://lumiere-a.akamaihd.net/v1/images/tusken-raiders-main-bobf-2_135f8e1e.jpeg?region=0%2C0%2C1280%2C720" alt="tusken raider">
-                    <h3>Tusken Raiders Taters</h3>
-                    <p>Potatoes with desert-inspired flavors like spices and herbs found on Tatooine.<br>
-                    Potatoes are obviously stolen from travelers unfortunate enough to wander in Tusken territory.</p>
-                    <i>4.00 credits</i>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Desserts </h4>
+                            <h3>Wookie Cookies </h3>
+                            <i>&emsp;..... 9.00 credits</i>
+                            <p>These ones are really chewie.<br></p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/5e94826f7d7499000120d564-image_f9b9d30e.jpeg?region=0%2C48%2C1536%2C768" alt="chewbacca">
+                        </div>
+                    </div>
                 </article>
             </section>
             <section id="order-form">
