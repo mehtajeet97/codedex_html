@@ -1,6 +1,6 @@
 # HTML
 
-HTML, or HyperText Markup Language was created by a developer named Tim Berners-Lee in 1991.
+HTML or HyperText Markup Language was created by a developer named Tim Berners-Lee in 1991.
 
 Today, HTML is used on every website in the world; it's the base structure underneath all your favorite sites. However, HTML is just one piece that is used to build a web page. 
 
